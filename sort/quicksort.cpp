@@ -27,6 +27,7 @@ int partition(int *arr, int front, int end)
     return i;
 }
 
+// use print_arr if you need.
 void print_arr(int *arr, int front, int end)
 {
     for (int i = front; i <= end; i++)
@@ -46,7 +47,6 @@ void quicksort(int *arr, int front, int end)
     if (front < end)
     {
         int idx_pivot = partition(arr, front, end);
-        print_arr(arr, 0, 9);
         quicksort(arr, front, idx_pivot - 1);
         quicksort(arr, idx_pivot + 1, end);
     }

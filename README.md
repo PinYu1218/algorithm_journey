@@ -1,2 +1,2 @@
 # algorithm_journey
-My algorithm implementation.
+I'll implement some significant algorithm code in this project.

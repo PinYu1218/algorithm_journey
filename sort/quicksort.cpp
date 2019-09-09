@@ -23,7 +23,6 @@ int quicksort::partition(std::vector<int> &vec, int front, int end)
 
 void quicksort::sort(std::vector<int> &vec, int front, int end)
 {
-
     if (front < end)
     {
         int idx_pivot = quicksort::partition(vec, front, end);
